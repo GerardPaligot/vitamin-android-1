@@ -9,19 +9,19 @@ open class VitaminFullBleedDividerItemDecoration @JvmOverloads constructor(
     context: Context,
     orientation: Int,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.dividerFullBleed
+    defStyleAttr: Int = R.attr.vtmnDividerFullBleed
 ) : MaterialDividerItemDecoration(context, attrs, defStyleAttr, orientation)
 
 open class VitaminInsetDividerItemDecoration @JvmOverloads constructor(
     context: Context,
     orientation: Int,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.dividerInset
+    defStyleAttr: Int = R.attr.vtmnDividerInset
 ) : MaterialDividerItemDecoration(context, attrs, defStyleAttr, orientation)
 
 open class VitaminMiddleDividerItemDecoration @JvmOverloads constructor(
     context: Context,
     orientation: Int,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.dividerMiddle
+    defStyleAttr: Int = R.attr.vtmnDividerMiddle
 ) : MaterialDividerItemDecoration(context, attrs, defStyleAttr, orientation)

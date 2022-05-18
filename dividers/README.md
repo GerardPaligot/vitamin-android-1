@@ -63,11 +63,11 @@ recyclerView.addItemDecoration(VitaminFullBleedDividerItemDecoration(context, Di
 
 You can use the three dividers variants : 
 
-| XML divider                                              | Kotlin divider            | Kotlin dividerItemDecoration            | Theme style        |
-|----------------------------------------------------------|---------------------------|-----------------------------------------|--------------------|
-| `com.decathlon.vitamin.dividers.VitaminFullBleedDivider` | `VitaminFullBleedDivider` | `VitaminFullBleedDividerItemDecoration` | `dividerFullBleed` |
-| `com.decathlon.vitamin.dividers.VitaminInsetDivider`     | `VitaminInsetDivider`     | `VitaminInsetDividerItemDecoration`     | `dividerInset`     |
-| `com.decathlon.vitamin.dividers.VitaminMiddleDivider`    | `VitaminMiddleDivider`    | `VitaminMiddleDividerItemDecoration`    | `dividerMiddle`    |
+| XML divider                                              | Kotlin divider            | Kotlin dividerItemDecoration            | Theme style            |
+|----------------------------------------------------------|---------------------------|-----------------------------------------|------------------------|
+| `com.decathlon.vitamin.dividers.VitaminFullBleedDivider` | `VitaminFullBleedDivider` | `VitaminFullBleedDividerItemDecoration` | `vtmnDividerFullBleed` |
+| `com.decathlon.vitamin.dividers.VitaminInsetDivider`     | `VitaminInsetDivider`     | `VitaminInsetDividerItemDecoration`     | `vtmnDividerInset`     |
+| `com.decathlon.vitamin.dividers.VitaminMiddleDivider`    | `VitaminMiddleDivider`    | `VitaminMiddleDividerItemDecoration`    | `vtmnDividerMiddle`    |
 
 ## Usage in standalone
 
@@ -86,10 +86,12 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
 <resources>
     <style name="Your.AppTheme" parent="Base.Theme.Vitamin">
         ...
-        <item name="materialDividerStyle">@style/Widget.Vitamin.Divider.FullBleed</item>
-        <item name="dividerFullBleed">@style/Widget.Vitamin.Divider.FullBleed</item>
-        <item name="dividerInset">@style/Widget.Vitamin.Divider.Inset</item>
-        <item name="dividerMiddle">@style/Widget.Vitamin.Divider.Middle</item>
+        <!-- Vitamin Dividers -->
+        <item name="vtmnDividerFullBleed">@style/Widget.Vitamin.Divider.FullBleed</item>
+        <item name="vtmnDividerInset">@style/Widget.Vitamin.Divider.Inset</item>
+        <item name="vtmnDividerMiddle">@style/Widget.Vitamin.Divider.Middle</item>
+        <!-- Material Dividers -->
+        <item name="materialDividerStyle">?attr/vtmnDividerFullBleed</item>
         <item name="android:listDivider">?attr/vtmnBorderSecondary</item>
     </style>
 </resources>
