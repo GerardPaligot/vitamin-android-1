@@ -155,19 +155,32 @@
         <item name="chipStyle">?attr/vtmnChipActionMedium</item>
         <item name="chipStandaloneStyle">?attr/vtmnChipInputMedium</item>
 
-        <!-- Prices -->
-        <item name="priceDefaultSmall">@style/Widget.Vitamin.Price.Default.Small</item>
-        <item name="priceDefaultMedium">@style/Widget.Vitamin.Price.Default.Medium</item>
-        <item name="priceDefaultLarge">@style/Widget.Vitamin.Price.Default.Large</item>
-        <item name="priceAccentSmall">@style/Widget.Vitamin.Price.Accent.Small</item>
-        <item name="priceAccentMedium">@style/Widget.Vitamin.Price.Accent.Medium</item>
-        <item name="priceAccentLarge">@style/Widget.Vitamin.Price.Accent.Large</item>
-        <item name="priceAlertSmall">@style/Widget.Vitamin.Price.Alert.Small</item>
-        <item name="priceAlertMedium">@style/Widget.Vitamin.Price.Alert.Medium</item>
-        <item name="priceAlertLarge">@style/Widget.Vitamin.Price.Alert.Large</item>
-        <item name="priceStrikethroughSmall">@style/Widget.Vitamin.Price.Strikethrough.Small</item>
-        <item name="priceStrikethroughMedium">@style/Widget.Vitamin.Price.Strikethrough.Medium</item>
-        <item name="priceStrikethroughLarge">@style/Widget.Vitamin.Price.Strikethrough.Large</item>
+        <!-- Vitamin Prices -->
+        <item name="vtmnPriceDefaultSmall">@style/Widget.Vitamin.Price.Default.Small</item>
+        <item name="vtmnPriceDefaultMedium">@style/Widget.Vitamin.Price.Default.Medium</item>
+        <item name="vtmnPriceDefaultLarge">@style/Widget.Vitamin.Price.Default.Large</item>
+        <item name="vtmnPriceAccentSmall">@style/Widget.Vitamin.Price.Accent.Small</item>
+        <item name="vtmnPriceAccentMedium">@style/Widget.Vitamin.Price.Accent.Medium</item>
+        <item name="vtmnPriceAccentLarge">@style/Widget.Vitamin.Price.Accent.Large</item>
+        <item name="vtmnPriceAlertSmall">@style/Widget.Vitamin.Price.Alert.Small</item>
+        <item name="vtmnPriceAlertMedium">@style/Widget.Vitamin.Price.Alert.Medium</item>
+        <item name="vtmnPriceAlertLarge">@style/Widget.Vitamin.Price.Alert.Large</item>
+        <item name="vtmnPriceStrikethroughSmall">@style/Widget.Vitamin.Price.Strikethrough.Small</item>
+        <item name="vtmnPriceStrikethroughMedium">@style/Widget.Vitamin.Price.Strikethrough.Medium</item>
+        <item name="vtmnPriceStrikethroughLarge">@style/Widget.Vitamin.Price.Strikethrough.Large</item>
+        <!-- Deprecated Vitamin Prices -->
+        <item name="priceDefaultSmall">?attr/vtmnPriceDefaultSmall</item>
+        <item name="priceDefaultMedium">?attr/vtmnPriceDefaultMedium</item>
+        <item name="priceDefaultLarge">?attr/vtmnPriceDefaultLarge</item>
+        <item name="priceAccentSmall">?attr/vtmnPriceAccentSmall</item>
+        <item name="priceAccentMedium">?attr/vtmnPriceAccentMedium</item>
+        <item name="priceAccentLarge">?attr/vtmnPriceAccentLarge</item>
+        <item name="priceAlertSmall">?attr/vtmnPriceAlertSmall</item>
+        <item name="priceAlertMedium">?attr/vtmnPriceAlertMedium</item>
+        <item name="priceAlertLarge">?attr/vtmnPriceAlertLarge</item>
+        <item name="priceStrikethroughSmall">?attr/vtmnPriceStrikethroughSmall</item>
+        <item name="priceStrikethroughMedium">?attr/vtmnPriceStrikethroughMedium</item>
+        <item name="priceStrikethroughLarge">?attr/vtmnPriceStrikethroughLarge</item>
 
         <!-- Vitamin Dividers -->
         <item name="vtmnDividerFullBleed">@style/Widget.Vitamin.Divider.FullBleed</item>

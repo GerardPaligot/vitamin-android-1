@@ -21,20 +21,20 @@ implementation("com.decathlon.vitamin:prices:<version>")
 
 With the same usage as above, you have multiple price types available:
 
-| Button type             | Kotlin Class                         | Attribute style                     |
-|-------------------------|--------------------------------------|-------------------------------------|
-| Default Small           | `VitaminPriceDefaultSmall`           | `?attr/priceDefaultSmall`           |
-| Default Medium          | `VitaminPriceDefaultMedium`          | `?attr/priceDefaultMedium`          |
-| Default Large           | `VitaminPriceDefaultLarge`           | `?attr/priceDefaultLarge`           |
-| Accent Small            | `VitaminPriceAccentSmall`            | `?attr/priceAccentSmall`            |
-| Accent Medium           | `VitaminPriceAccentMedium`            | `?attr/priceAccentMedium`           |
-| Accent Large            | `VitaminPriceAccentLarge`            | `?attr/priceAccentLarge`            |
-| Alert Small             | `VitaminPriceAlertSmall`             | `?attr/priceAlertSmall`             |
-| Alert Medium            | `VitaminPriceAlertMedium`            | `?attr/priceAlertMedium`            |
-| Alert Large             | `VitaminPriceAlertLarge`             | `?attr/priceAlertLarge`             |
-| Strikethrough Small     | `VitaminPriceStrikethroughSmall`     | `?attr/priceStrikethroughSmall`     |
-| Strikethrough Medium    | `VitaminPriceStrikethroughMedium`    | `?attr/priceStrikethroughMedium`    |
-| Strikethrough Large     | `VitaminPriceStrikethroughLarge`     | `?attr/priceStrikethroughLarge`    |
+| Button type             | Kotlin Class                         | Attribute style                         |
+|-------------------------|--------------------------------------|-----------------------------------------|
+| Default Small           | `VitaminPriceDefaultSmall`           | `?attr/vtmnPriceDefaultSmall`           |
+| Default Medium          | `VitaminPriceDefaultMedium`          | `?attr/vtmnPriceDefaultMedium`          |
+| Default Large           | `VitaminPriceDefaultLarge`           | `?attr/vtmnPriceDefaultLarge`           |
+| Accent Small            | `VitaminPriceAccentSmall`            | `?attr/vtmnPriceAccentSmall`            |
+| Accent Medium           | `VitaminPriceAccentMedium`           | `?attr/vtmnPriceAccentMedium`           |
+| Accent Large            | `VitaminPriceAccentLarge`            | `?attr/vtmnPriceAccentLarge`            |
+| Alert Small             | `VitaminPriceAlertSmall`             | `?attr/vtmnPriceAlertSmall`             |
+| Alert Medium            | `VitaminPriceAlertMedium`            | `?attr/vtmnPriceAlertMedium`            |
+| Alert Large             | `VitaminPriceAlertLarge`             | `?attr/vtmnPriceAlertLarge`             |
+| Strikethrough Small     | `VitaminPriceStrikethroughSmall`     | `?attr/vtmnPriceStrikethroughSmall`     |
+| Strikethrough Medium    | `VitaminPriceStrikethroughMedium`    | `?attr/vtmnPriceStrikethroughMedium`    |
+| Strikethrough Large     | `VitaminPriceStrikethroughLarge`     | `?attr/vtmnPriceStrikethroughLarge`     |
 
 ## Usage in standalone
 
@@ -55,19 +55,19 @@ implementation("com.decathlon.vitamin:prices:<version>")
 <resources>
     <style name="AppTheme" parent="Base.Theme.Vitamin">
         ...
-        <!-- Prices -->
-        <item name="priceDefaultSmall">@style/Widget.Vitamin.Price.Default.Small</item>
-        <item name="priceDefaultMedium">@style/Widget.Vitamin.Price.Default.Medium</item>
-        <item name="priceDefaultLarge">@style/Widget.Vitamin.Price.Default.Large</item>
-        <item name="priceAccentSmall">@style/Widget.Vitamin.Price.Accent.Small</item>
-        <item name="priceAccentMedium">@style/Widget.Vitamin.Price.Accent.Medium</item>
-        <item name="priceAccentLarge">@style/Widget.Vitamin.Price.Accent.Large</item>
-        <item name="priceAlertSmall">@style/Widget.Vitamin.Price.Alert.Small</item>
-        <item name="priceAlertMedium">@style/Widget.Vitamin.Price.Alert.Medium</item>
-        <item name="priceAlertLarge">@style/Widget.Vitamin.Price.Alert.Large</item>
-        <item name="priceStrikethroughSmall">@style/Widget.Vitamin.Price.Strikethrough.Small</item>
-        <item name="priceStrikethroughMedium">@style/Widget.Vitamin.Price.Strikethrough.Medium</item>
-        <item name="priceStrikethroughLarge">@style/Widget.Vitamin.Price.Strikethrough.Large</item>
+        <!-- Vitamin Prices -->
+        <item name="vtmnPriceDefaultSmall">@style/Widget.Vitamin.Price.Default.Small</item>
+        <item name="vtmnPriceDefaultMedium">@style/Widget.Vitamin.Price.Default.Medium</item>
+        <item name="vtmnPriceDefaultLarge">@style/Widget.Vitamin.Price.Default.Large</item>
+        <item name="vtmnPriceAccentSmall">@style/Widget.Vitamin.Price.Accent.Small</item>
+        <item name="vtmnPriceAccentMedium">@style/Widget.Vitamin.Price.Accent.Medium</item>
+        <item name="vtmnPriceAccentLarge">@style/Widget.Vitamin.Price.Accent.Large</item>
+        <item name="vtmnPriceAlertSmall">@style/Widget.Vitamin.Price.Alert.Small</item>
+        <item name="vtmnPriceAlertMedium">@style/Widget.Vitamin.Price.Alert.Medium</item>
+        <item name="vtmnPriceAlertLarge">@style/Widget.Vitamin.Price.Alert.Large</item>
+        <item name="vtmnPriceStrikethroughSmall">@style/Widget.Vitamin.Price.Strikethrough.Small</item>
+        <item name="vtmnPriceStrikethroughMedium">@style/Widget.Vitamin.Price.Strikethrough.Medium</item>
+        <item name="vtmnPriceStrikethroughLarge">@style/Widget.Vitamin.Price.Strikethrough.Large</item>
     </style>
 </resources>
 ```
