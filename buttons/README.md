@@ -23,7 +23,7 @@ or
 
 ```xml
 <com.google.android.material.button.MaterialButton
-    style="?attr/buttonPrimaryMedium"
+    style="?attr/vtmnButtonPrimaryMedium"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="My Button" />
@@ -33,31 +33,20 @@ With the same usage as above, you have multiple button types available:
 
 | Button type             | Kotlin Class                         | Attribute style                     |
 |-------------------------|--------------------------------------|-------------------------------------|
-| Primary Medium          | `VitaminPrimaryMediumButton`         | `?attr/buttonPrimaryMedium`         |
-| Primary Large           | `VitaminPrimaryLargeButton`          | `?attr/buttonPrimaryLarge`          |
-| Secondary Medium        | `VitaminSecondaryMediumButton`       | `?attr/buttonSecondaryMedium`       |
-| Secondary Large         | `VitaminSecondaryLargeButton`        | `?attr/buttonSecondaryLarge`        |
-| Tertiary Medium         | `VitaminTertiaryMediumButton`        | `?attr/buttonTertiaryMedium`        |
-| Tertiary Large          | `VitaminTertiaryLargeButton`         | `?attr/buttonTertiaryLarge`         |
-| Conversion Medium       | `VitaminConversionMediumButton`      | `?attr/buttonConversionMedium`      |
-| Conversion Large        | `VitaminConversionLargeButton`       | `?attr/buttonConversionLarge`       |
-| Primary Reversed Medium | `VitaminPrimaryReversedMediumButton` | `?attr/buttonPrimaryReversedMedium` |
-| Primary Reversed Large  | `VitaminPrimaryReversedLargeButton`  | `?attr/buttonPrimaryReversedLarge`  |
-| Ghost Medium            | `VitaminGhostMediumButton`           | `?attr/buttonGhostMedium`           |
-| Ghost Large             | `VitaminGhostLargeButton`            | `?attr/buttonGhostLarge`            |
-| Ghost Reversed Medium   | `VitaminGhostReversedMediumButton`   | `?attr/buttonGhostReversedMedium`   |
-| Ghost Reversed Large    | `VitaminGhostReversedLargeButton`    | `?attr/buttonGhostReversedLarge`    |
-
-Deprecated types: 
-
-| Deprecated Button type | Deprecated Kotlin Class        | Deprecated Attribute style    | Redirected Button type  |
-|------------------------|--------------------------------|-------------------------------|-------------------------|
-| Primary                | `VitaminPrimaryButton`         | N/A                           | Primary Medium          |
-| Secondary              | `VitaminSecondaryButton`       | `?attr/buttonSecondary`       | Secondary Medium        |
-| Conversion             | `VitaminConversionButton`      | `?attr/buttonConversionStyle` | Conversion Medium       |
-| Primary Reversed       | `VitaminPrimaryReversedButton` | `?attr/buttonReverseStyle`    | Primary Reversed Medium |
-| Ghost                  | `VitaminGhostButton`           | `?attr/buttonGhost`           | Ghost Medium            |
-| Ghost Reversed         | `VitaminGhostReversedButton`   | `?attr/buttonGhostReversed`   | Ghost Reversed Medium   |
+| Primary Medium          | `VitaminPrimaryMediumButton`         | `?attr/vtmnButtonPrimaryMedium`         |
+| Primary Large           | `VitaminPrimaryLargeButton`          | `?attr/vtmnButtonPrimaryLarge`          |
+| Secondary Medium        | `VitaminSecondaryMediumButton`       | `?attr/vtmnButtonSecondaryMedium`       |
+| Secondary Large         | `VitaminSecondaryLargeButton`        | `?attr/vtmnButtonSecondaryLarge`        |
+| Tertiary Medium         | `VitaminTertiaryMediumButton`        | `?attr/vtmnButtonTertiaryMedium`        |
+| Tertiary Large          | `VitaminTertiaryLargeButton`         | `?attr/vtmnButtonTertiaryLarge`         |
+| Conversion Medium       | `VitaminConversionMediumButton`      | `?attr/vtmnButtonConversionMedium`      |
+| Conversion Large        | `VitaminConversionLargeButton`       | `?attr/vtmnButtonConversionLarge`       |
+| Primary Reversed Medium | `VitaminPrimaryReversedMediumButton` | `?attr/vtmnButtonPrimaryReversedMedium` |
+| Primary Reversed Large  | `VitaminPrimaryReversedLargeButton`  | `?attr/vtmnButtonPrimaryReversedLarge`  |
+| Ghost Medium            | `VitaminGhostMediumButton`           | `?attr/vtmnButtonGhostMedium`           |
+| Ghost Large             | `VitaminGhostLargeButton`            | `?attr/vtmnButtonGhostLarge`            |
+| Ghost Reversed Medium   | `VitaminGhostReversedMediumButton`   | `?attr/vtmnButtonGhostReversedMedium`   |
+| Ghost Reversed Large    | `VitaminGhostReversedLargeButton`    | `?attr/vtmnButtonGhostReversedLarge`    |
 
 ## Usage in standalone
 
@@ -76,26 +65,31 @@ implementation("com.decathlon.vitamin:buttons:<version>")
 <resources>
     <style name="AppTheme" parent="Base.Theme.Vitamin">
         ...
-        <!-- Buttons -->
-        <item name="buttonStyle">@style/Widget.Vitamin.Button.Primary.Medium</item>
-        <item name="materialButtonStyle">@style/Widget.Vitamin.Button.Primary.Medium</item>
-        <item name="materialButtonOutlinedStyle">@style/Widget.Vitamin.Button.Secondary.Medium</item>
-        <item name="borderlessButtonStyle">@style/Widget.Vitamin.Button.Ghost.Medium</item>
-        <!-- Custom Buttons Styles -->
-        <item name="buttonPrimaryMedium">@style/Widget.Vitamin.Button.Primary.Medium</item>
-        <item name="buttonPrimaryLarge">@style/Widget.Vitamin.Button.Primary.Large</item>
-        <item name="buttonSecondaryMedium">@style/Widget.Vitamin.Button.Secondary.Medium</item>
-        <item name="buttonSecondaryLarge">@style/Widget.Vitamin.Button.Secondary.Large</item>
-        <item name="buttonTertiaryMedium">@style/Widget.Vitamin.Button.Tertiary.Medium</item>
-        <item name="buttonTertiaryLarge">@style/Widget.Vitamin.Button.Tertiary.Large</item>
-        <item name="buttonConversionMedium">@style/Widget.Vitamin.Button.Conversion.Medium</item>
-        <item name="buttonConversionLarge">@style/Widget.Vitamin.Button.Conversion.Large</item>
-        <item name="buttonPrimaryReversedMedium">@style/Widget.Vitamin.Button.PrimaryReversed.Medium</item>
-        <item name="buttonPrimaryReversedLarge">@style/Widget.Vitamin.Button.PrimaryReversed.Large</item>
-        <item name="buttonGhostMedium">@style/Widget.Vitamin.Button.Ghost.Medium</item>
-        <item name="buttonGhostLarge">@style/Widget.Vitamin.Button.Ghost.Large</item>
-        <item name="buttonGhostReversedMedium">@style/Widget.Vitamin.Button.GhostReversed.Medium</item>
-        <item name="buttonGhostReversedLarge">@style/Widget.Vitamin.Button.GhostReversed.Large</item>
+        <!-- Vitamin Buttons -->
+        <item name="vtmnButtonPrimaryMedium">@style/Widget.Vitamin.Button.Primary.Medium</item>
+        <item name="vtmnButtonPrimaryLarge">@style/Widget.Vitamin.Button.Primary.Large</item>
+        <item name="vtmnButtonSecondaryMedium">@style/Widget.Vitamin.Button.Secondary.Medium</item>
+        <item name="vtmnButtonSecondaryLarge">@style/Widget.Vitamin.Button.Secondary.Large</item>
+        <item name="vtmnButtonTertiaryMedium">@style/Widget.Vitamin.Button.Tertiary.Medium</item>
+        <item name="vtmnButtonTertiaryLarge">@style/Widget.Vitamin.Button.Tertiary.Large</item>
+        <item name="vtmnButtonConversionMedium">@style/Widget.Vitamin.Button.Conversion.Medium</item>
+        <item name="vtmnButtonConversionLarge">@style/Widget.Vitamin.Button.Conversion.Large</item>
+        <item name="vtmnButtonPrimaryReversedMedium">
+            @style/Widget.Vitamin.Button.PrimaryReversed.Medium
+        </item>
+        <item name="vtmnButtonPrimaryReversedLarge">@style/Widget.Vitamin.Button.PrimaryReversed.Large
+        </item>
+        <item name="vtmnButtonGhostMedium">@style/Widget.Vitamin.Button.Ghost.Medium</item>
+        <item name="vtmnButtonGhostLarge">@style/Widget.Vitamin.Button.Ghost.Large</item>
+        <item name="vtmnButtonGhostReversedMedium">@style/Widget.Vitamin.Button.GhostReversed.Medium
+        </item>
+        <item name="vtmnButtonGhostReversedLarge">@style/Widget.Vitamin.Button.GhostReversed.Large
+        </item>
+        <!-- Material Buttons -->
+        <item name="buttonStyle">?attr/vtmnButtonPrimaryMedium</item>
+        <item name="materialButtonStyle">?attr/vtmnButtonPrimaryMedium</item>
+        <item name="materialButtonOutlinedStyle">?attr/vtmnButtonSecondaryMedium</item>
+        <item name="borderlessButtonStyle">?attr/vtmnButtonGhostMedium</item>
     </style>
 </resources>
 ```

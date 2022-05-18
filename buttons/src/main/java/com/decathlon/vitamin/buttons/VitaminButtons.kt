@@ -16,13 +16,13 @@ open class VitaminPrimaryButton @JvmOverloads constructor(
 open class VitaminPrimaryMediumButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.buttonPrimaryMedium
+    defStyleAttr: Int = R.attr.vtmnButtonPrimaryMedium
 ) : MaterialButton(context, attrs, defStyleAttr)
 
 open class VitaminPrimaryLargeButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.buttonPrimaryLarge
+    defStyleAttr: Int = R.attr.vtmnButtonPrimaryLarge
 ) : MaterialButton(context, attrs, defStyleAttr)
 
 @Deprecated(
@@ -37,25 +37,25 @@ open class VitaminSecondaryButton @JvmOverloads constructor(
 open class VitaminSecondaryMediumButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.buttonSecondaryMedium
+    defStyleAttr: Int = R.attr.vtmnButtonSecondaryMedium
 ) : MaterialButton(context, attrs, defStyleAttr)
 
 open class VitaminSecondaryLargeButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.buttonSecondaryLarge
+    defStyleAttr: Int = R.attr.vtmnButtonSecondaryLarge
 ) : MaterialButton(context, attrs, defStyleAttr)
 
 open class VitaminTertiaryMediumButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.buttonTertiaryMedium
+    defStyleAttr: Int = R.attr.vtmnButtonTertiaryMedium
 ) : MaterialButton(context, attrs, defStyleAttr)
 
 open class VitaminTertiaryLargeButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.buttonTertiaryLarge
+    defStyleAttr: Int = R.attr.vtmnButtonTertiaryLarge
 ) : MaterialButton(context, attrs, defStyleAttr)
 
 @Deprecated(
@@ -70,13 +70,13 @@ open class VitaminConversionButton @JvmOverloads constructor(
 open class VitaminConversionMediumButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.buttonConversionMedium
+    defStyleAttr: Int = R.attr.vtmnButtonConversionMedium
 ) : MaterialButton(context, attrs, defStyleAttr)
 
 open class VitaminConversionLargeButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.buttonConversionLarge
+    defStyleAttr: Int = R.attr.vtmnButtonConversionLarge
 ) : MaterialButton(context, attrs, defStyleAttr)
 
 @Deprecated(
@@ -91,13 +91,13 @@ open class VitaminPrimaryReversedButton @JvmOverloads constructor(
 open class VitaminPrimaryReversedMediumButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.buttonPrimaryReversedMedium
+    defStyleAttr: Int = R.attr.vtmnButtonPrimaryReversedMedium
 ) : MaterialButton(context, attrs, defStyleAttr)
 
 open class VitaminPrimaryReversedLargeButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.buttonPrimaryReversedLarge
+    defStyleAttr: Int = R.attr.vtmnButtonPrimaryReversedLarge
 ) : MaterialButton(context, attrs, defStyleAttr)
 
 @Deprecated(
@@ -112,13 +112,13 @@ open class VitaminGhostButton @JvmOverloads constructor(
 open class VitaminGhostMediumButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.buttonGhostMedium
+    defStyleAttr: Int = R.attr.vtmnButtonGhostMedium
 ) : MaterialButton(context, attrs, defStyleAttr)
 
 open class VitaminGhostLargeButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.buttonGhostLarge
+    defStyleAttr: Int = R.attr.vtmnButtonGhostLarge
 ) : MaterialButton(context, attrs, defStyleAttr)
 
 @Deprecated(
@@ -133,11 +133,11 @@ open class VitaminGhostReversedButton @JvmOverloads constructor(
 open class VitaminGhostReversedMediumButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.buttonGhostReversedMedium
+    defStyleAttr: Int = R.attr.vtmnButtonGhostReversedMedium
 ) : MaterialButton(context, attrs, defStyleAttr)
 
 open class VitaminGhostReversedLargeButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.buttonGhostReversedLarge
+    defStyleAttr: Int = R.attr.vtmnButtonGhostReversedLarge
 ) : MaterialButton(context, attrs, defStyleAttr)
