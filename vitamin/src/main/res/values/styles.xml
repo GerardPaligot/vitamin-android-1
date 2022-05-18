@@ -23,7 +23,7 @@
         </item>
         <item name="vtmnButtonGhostReversedLarge">@style/Widget.Vitamin.Button.GhostReversed.Large
         </item>
-        <!-- Deprecated Buttons -->
+        <!-- Deprecated Vitamin Buttons -->
         <item name="buttonPrimaryMedium">?attr/vtmnButtonPrimaryMedium</item>
         <item name="buttonPrimaryLarge">?attr/vtmnButtonPrimaryLarge</item>
         <item name="buttonSecondaryMedium">?attr/vtmnButtonSecondaryMedium</item>
