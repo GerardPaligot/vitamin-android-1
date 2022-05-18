@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="vtmnChipFilterMedium" format="reference" />
+    <attr name="vtmnChipFilterSmall" format="reference" />
+    <attr name="vtmnChipInputMedium" format="reference" />
+    <attr name="vtmnChipInputSmall" format="reference" />
+    <attr name="vtmnChipInputImageMedium" format="reference" />
+    <attr name="vtmnChipInputImageSmall" format="reference" />
+    <attr name="vtmnChipSingleChoiceMedium" format="reference" />
+    <attr name="vtmnChipSingleChoiceSmall" format="reference" />
+    <attr name="vtmnChipActionMedium" format="reference" />
+    <attr name="vtmnChipActionSmall" format="reference" />
+
+    <!-- {@deprecated check vtmnChipFilterMedium} -->
     <attr name="chipFilterMedium" format="reference" />
+    <!-- {@deprecated check vtmnChipFilterSmall} -->
     <attr name="chipFilterSmall" format="reference" />
+    <!-- {@deprecated check vtmnChipInputMedium} -->
     <attr name="chipInputMedium" format="reference" />
+    <!-- {@deprecated check vtmnChipInputSmall} -->
     <attr name="chipInputSmall" format="reference" />
+    <!-- {@deprecated check vtmnChipInputImageMedium} -->
     <attr name="chipInputImageMedium" format="reference" />
+    <!-- {@deprecated check vtmnChipInputImageSmall} -->
     <attr name="chipInputImageSmall" format="reference" />
+    <!-- {@deprecated check vtmnChipSingleChoiceMedium} -->
     <attr name="chipSingleChoiceMedium" format="reference" />
+    <!-- {@deprecated check vtmnChipSingleChoiceSmall} -->
     <attr name="chipSingleChoiceSmall" format="reference" />
+    <!-- {@deprecated check vtmnChipActionMedium} -->
     <attr name="chipActionMedium" format="reference" />
+    <!-- {@deprecated check vtmnChipActionSmall} -->
     <attr name="chipActionSmall" format="reference" />
 </resources>
